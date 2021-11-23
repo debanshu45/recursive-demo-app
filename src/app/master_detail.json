@@ -1,0 +1,1142 @@
+[
+  {
+    "bookingId": "38aaeb6da0e7578aeb49575",
+    "dealTrackingNumber": "180",
+    "creditAgreementName": "(JL) 5.5 NA LOAN TEST",
+    "branch": "00002",
+    "department": "FRONL",
+    "processingArea": "CLD",
+    "dealClassification": "ACQ",
+    "agreementDate": null,
+    "creditDocumentationStatus": "In Progress",
+    "targetFundingDate": null,
+    "currency": "USD",
+    "proposedCommitment": 3000000000.0,
+    "relationshipManagerName": "",
+    "primaryBorrower": "JL CUSTOMER 2",
+    "dealId": "0$5R2NIK",
+    "borrowers": [
+      {
+        "cifNumber": "Z:4M6I88"
+      }
+    ],
+    "facilities": [
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "SBLC",
+        "facilityType": "STB",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8WJ",
+        "outstandings": null,
+        "interestPricings": [],
+        "feePricings": [],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [],
+        "purposes": [
+          {
+            "loanPurposeType": "GCP"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "DISCOUNT INSTRUMENTS",
+        "facilityType": "TAM",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [
+          {
+            "cifNumber": "L25RN61I"
+          }
+        ],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN7S7",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          },
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "LOANS"
+          },
+          {
+            "riskType": "ACCE"
+          },
+          {
+            "riskType": "BILL"
+          },
+          {
+            "riskType": "DSCNT"
+          },
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "JPY"
+          },
+          {
+            "currencyLimit": "GBP"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "FIN"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "REGULAR LOAN",
+        "facilityType": "RCD",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8NX",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          },
+          {
+            "riskType": "LOANS"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "EUR"
+          },
+          {
+            "currencyLimit": "JPY"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "MRE"
+          }
+        ]
+      }
+    ],
+    "originationPrimaries": []
+  },
+  {
+    "bookingId": "38aaeb6da0e7578aeb49575",
+    "dealTrackingNumber": "181",
+    "creditAgreementName": "(JL) 5.5 NA LOAN TEST",
+    "branch": "00002",
+    "department": "FRONL",
+    "processingArea": "CLD",
+    "dealClassification": "ACQ",
+    "agreementDate": null,
+    "creditDocumentationStatus": "In Progress",
+    "targetFundingDate": null,
+    "currency": "USD",
+    "proposedCommitment": 3000000000.0,
+    "relationshipManagerName": "",
+    "primaryBorrower": "JL CUSTOMER 2",
+    "dealId": "0$5R2NIK",
+    "borrowers": [
+      {
+        "cifNumber": "Z:4M6I88"
+      }
+    ],
+    "facilities": [
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "SBLC",
+        "facilityType": "STB",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8WJ",
+        "outstandings": null,
+        "interestPricings": [],
+        "feePricings": [],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [],
+        "purposes": [
+          {
+            "loanPurposeType": "GCP"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "DISCOUNT INSTRUMENTS",
+        "facilityType": "TAM",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [
+          {
+            "cifNumber": "L25RN61I"
+          }
+        ],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN7S7",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          },
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "LOANS"
+          },
+          {
+            "riskType": "ACCE"
+          },
+          {
+            "riskType": "BILL"
+          },
+          {
+            "riskType": "DSCNT"
+          },
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "JPY"
+          },
+          {
+            "currencyLimit": "GBP"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "FIN"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "REGULAR LOAN",
+        "facilityType": "RCD",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8NX",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          },
+          {
+            "riskType": "LOANS"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "EUR"
+          },
+          {
+            "currencyLimit": "JPY"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "MRE"
+          }
+        ]
+      }
+    ],
+    "originationPrimaries": []
+  },
+  {
+    "bookingId": "38aaeb6da0e7578aeb49575",
+    "dealTrackingNumber": "182",
+    "creditAgreementName": "(JL) 5.5 NA LOAN TEST",
+    "branch": "00002",
+    "department": "FRONL",
+    "processingArea": "CLD",
+    "dealClassification": "ACQ",
+    "agreementDate": null,
+    "creditDocumentationStatus": "In Progress",
+    "targetFundingDate": null,
+    "currency": "USD",
+    "proposedCommitment": 3000000000.0,
+    "relationshipManagerName": "",
+    "primaryBorrower": "JL CUSTOMER 2",
+    "dealId": "0$5R2NIK",
+    "borrowers": [
+      {
+        "cifNumber": "Z:4M6I88"
+      }
+    ],
+    "facilities": [
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "SBLC",
+        "facilityType": "STB",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8WJ",
+        "outstandings": null,
+        "interestPricings": [],
+        "feePricings": [],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [],
+        "purposes": [
+          {
+            "loanPurposeType": "GCP"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "DISCOUNT INSTRUMENTS",
+        "facilityType": "TAM",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [
+          {
+            "cifNumber": "L25RN61I"
+          }
+        ],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN7S7",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          },
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "LOANS"
+          },
+          {
+            "riskType": "ACCE"
+          },
+          {
+            "riskType": "BILL"
+          },
+          {
+            "riskType": "DSCNT"
+          },
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "JPY"
+          },
+          {
+            "currencyLimit": "GBP"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "FIN"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "REGULAR LOAN",
+        "facilityType": "RCD",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8NX",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          },
+          {
+            "riskType": "LOANS"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "EUR"
+          },
+          {
+            "currencyLimit": "JPY"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "MRE"
+          }
+        ]
+      }
+    ],
+    "originationPrimaries": []
+  },
+  {
+    "bookingId": "38aaeb6da0e7578aeb49575",
+    "dealTrackingNumber": "181",
+    "creditAgreementName": "(JL) 5.5 NA LOAN TEST",
+    "branch": "00002",
+    "department": "FRONL",
+    "processingArea": "CLD",
+    "dealClassification": "ACQ",
+    "agreementDate": null,
+    "creditDocumentationStatus": "In Progress",
+    "targetFundingDate": null,
+    "currency": "USD",
+    "proposedCommitment": 3000000000.0,
+    "relationshipManagerName": "",
+    "primaryBorrower": "JL CUSTOMER 2",
+    "dealId": "0$5R2NIK",
+    "borrowers": [
+      {
+        "cifNumber": "Z:4M6I88"
+      }
+    ],
+    "facilities": [
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "SBLC",
+        "facilityType": "STB",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8WJ",
+        "outstandings": null,
+        "interestPricings": [],
+        "feePricings": [],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [],
+        "purposes": [
+          {
+            "loanPurposeType": "GCP"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "DISCOUNT INSTRUMENTS",
+        "facilityType": "TAM",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [
+          {
+            "cifNumber": "L25RN61I"
+          }
+        ],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN7S7",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          },
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "LOANS"
+          },
+          {
+            "riskType": "ACCE"
+          },
+          {
+            "riskType": "BILL"
+          },
+          {
+            "riskType": "DSCNT"
+          },
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "JPY"
+          },
+          {
+            "currencyLimit": "GBP"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "FIN"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "REGULAR LOAN",
+        "facilityType": "RCD",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8NX",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          },
+          {
+            "riskType": "LOANS"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "EUR"
+          },
+          {
+            "currencyLimit": "JPY"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "MRE"
+          }
+        ]
+      }
+    ],
+    "originationPrimaries": []
+  },
+  {
+    "bookingId": "38aaeb6da0e7578aeb49575",
+    "dealTrackingNumber": "183",
+    "creditAgreementName": "(JL) 5.5 NA LOAN TEST",
+    "branch": "00002",
+    "department": "FRONL",
+    "processingArea": "CLD",
+    "dealClassification": "ACQ",
+    "agreementDate": null,
+    "creditDocumentationStatus": "In Progress",
+    "targetFundingDate": null,
+    "currency": "USD",
+    "proposedCommitment": 3000000000.0,
+    "relationshipManagerName": "",
+    "primaryBorrower": "JL CUSTOMER 2",
+    "dealId": "0$5R2NIK",
+    "borrowers": [
+      {
+        "cifNumber": "Z:4M6I88"
+      }
+    ],
+    "facilities": [
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "SBLC",
+        "facilityType": "STB",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8WJ",
+        "outstandings": null,
+        "interestPricings": [],
+        "feePricings": [],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [],
+        "purposes": [
+          {
+            "loanPurposeType": "GCP"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "DISCOUNT INSTRUMENTS",
+        "facilityType": "TAM",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [
+          {
+            "cifNumber": "L25RN61I"
+          }
+        ],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN7S7",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          },
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "LOANS"
+          },
+          {
+            "riskType": "ACCE"
+          },
+          {
+            "riskType": "BILL"
+          },
+          {
+            "riskType": "DSCNT"
+          },
+          {
+            "riskType": "SBLC"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "JPY"
+          },
+          {
+            "currencyLimit": "GBP"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "FIN"
+          }
+        ]
+      },
+      {
+        "agreementDate": "2004-01-05",
+        "currency": "USD",
+        "effectiveDate": "2004-01-05",
+        "expiryDate": "2009-01-05",
+        "facilityName": "REGULAR LOAN",
+        "facilityType": "RCD",
+        "finalMaturityDate": "2009-01-05",
+        "borrowers": [],
+        "proposedCommitment": 1000000000.0,
+        "facilityId": "L25RN8NX",
+        "outstandings": null,
+        "interestPricings": [
+          {
+            "baseRate": "DFFR",
+            "option": "BILL",
+            "rateBasis": "BANK",
+            "spread": 0.01
+          },
+          {
+            "baseRate": "LIBO",
+            "option": "LIBOR",
+            "rateBasis": "BANK",
+            "spread": 0.02
+          },
+          {
+            "baseRate": "FIX",
+            "option": "FIXED",
+            "rateBasis": "BANK",
+            "spread": 0.012
+          },
+          {
+            "baseRate": "CD",
+            "option": "CD",
+            "rateBasis": "BANK",
+            "spread": 0.0123
+          }
+        ],
+        "feePricings": [
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": null
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.01
+          },
+          {
+            "option": "",
+            "rateBasis": "BANK",
+            "feeRate": 0.05
+          },
+          {
+            "option": "",
+            "rateBasis": "G365",
+            "feeRate": null
+          }
+        ],
+        "riskTypes": [
+          {
+            "riskType": "SBLC"
+          },
+          {
+            "riskType": "LOANS"
+          }
+        ],
+        "supportedCurrencies": [
+          {
+            "currencyLimit": "EUR"
+          },
+          {
+            "currencyLimit": "JPY"
+          }
+        ],
+        "purposes": [
+          {
+            "loanPurposeType": "MRE"
+          }
+        ]
+      }
+    ],
+    "originationPrimaries": []
+  }
+]

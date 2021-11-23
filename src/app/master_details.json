@@ -1,0 +1,1486 @@
+[
+  {
+    "bookingRequestId": "123",
+    "LiqBusinessObject": [
+      {
+        "@name": "deal",
+        "groups": [
+          {
+            "@name": "heading",
+            "items": [
+              {
+                "@value": "IE151a",
+                "@valueType": "String",
+                "@attribute": "dealTrackingNumber"
+              },
+              {
+                "@value": "Smith Foods Credit Agreement452a",
+                "@valueType": "String",
+                "@attribute": "creditAgreementName"
+              },
+              {
+                "@value": "00005",
+                "@valueType": "String",
+                "@attribute": "branch"
+              },
+              {
+                "@value": "FRONL",
+                "@valueType": "String",
+                "@attribute": "department"
+              },
+              {
+                "@value": "CLDA",
+                "@valueType": "String",
+                "@attribute": "processingArea"
+              },
+              {
+                "@value": "TREE",
+                "@valueType": "String",
+                "@attribute": "dealClassification"
+              },
+              {
+                "@value": "LIBOR",
+                "@valueType": "String",
+                "@attribute": "interestPricingRules"
+              },
+              {
+                "@value": "UNUT",
+                "@valueType": "String",
+                "@attribute": "feePricingRules"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "agreementDate"
+              },
+              {
+                "@value": "In Progress",
+                "@valueType": "String",
+                "@attribute": "creditDocumentationStatus"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "targetFundingDate"
+              },
+              {
+                "@value": "USD",
+                "@valueType": "String",
+                "@attribute": "currency"
+              },
+              {
+                "@value": "John Smith",
+                "@valueType": "String",
+                "@attribute": "relationshipManagerName"
+              },
+              {
+                "@value": "ABC Corp",
+                "@valueType": "String",
+                "@attribute": "primaryBorrower"
+              }
+            ]
+          }
+        ],
+        "@objectType": "",
+        "@objectId": "",
+        "LiqBusinessObject": [
+          {
+            "@name": "borrowers",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "CUST100123",
+                    "@valueType": "String",
+                    "@attribute": "cifNumber"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "facilities",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "2021-11-01",
+                    "@valueType": "String",
+                    "@attribute": "agreementDate"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  },
+                  {
+                    "@value": "2021-11-02",
+                    "@valueType": "String",
+                    "@attribute": "effectiveDate"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "expiryDate"
+                  },
+                  {
+                    "@value": "IE151a",
+                    "@valueType": "String",
+                    "@attribute": "facilityName"
+                  },
+                  {
+                    "@value": "RST",
+                    "@valueType": "String",
+                    "@attribute": "facilityType"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "finalMaturityDate"
+                  },
+                  {
+                    "@value": "ABC Corporation",
+                    "@valueType": "String",
+                    "@attribute": "borrowerLegalName"
+                  },
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "modifyInterestPricingOption"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": "",
+            "LiqBusinessObject": [
+              {
+                "@name": "outstandings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "PRIME",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "beneficiaries"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "borrowerName"
+                      },
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currency"
+                      },
+                      {
+                        "@value": "2021-11-02",
+                        "@valueType": "String",
+                        "@attribute": "effectiveDate"
+                      },
+                      {
+                        "@value": "2023-11-02",
+                        "@valueType": "String",
+                        "@attribute": "expiryDate"
+                      },
+                      {
+                        "@value": "SBLC",
+                        "@valueType": "String",
+                        "@attribute": "outstandingType"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "pricingOption"
+                      },
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "purpose"
+                      },
+                      {
+                        "@value": "3M",
+                        "@valueType": "String",
+                        "@attribute": "repricingFrequency"
+                      },
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "interestPricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBO,FIX",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "feePricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "riskTypes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "purposes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "loanPurposeType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "supportedCurrencies",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currencyLimit"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              }
+            ]
+          },
+          {
+            "@name": "pricingOptions",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "option"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "originationPrimaries",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "HB Americas",
+                    "@valueType": "String",
+                    "@attribute": "lenderName"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookingRequestId": "124",
+    "LiqBusinessObject": [
+      {
+        "@name": "deal",
+        "groups": [
+          {
+            "@name": "heading",
+            "items": [
+              {
+                "@value": "IE21",
+                "@valueType": "String",
+                "@attribute": "dealTrackingNumber"
+              },
+              {
+                "@value": "Smith Foods Credit Agreement4561",
+                "@valueType": "String",
+                "@attribute": "creditAgreementName"
+              },
+              {
+                "@value": "00002",
+                "@valueType": "String",
+                "@attribute": "branch"
+              },
+              {
+                "@value": "FRONA",
+                "@valueType": "String",
+                "@attribute": "department"
+              },
+              {
+                "@value": "CLDA",
+                "@valueType": "String",
+                "@attribute": "processingArea"
+              },
+              {
+                "@value": "ACQ",
+                "@valueType": "String",
+                "@attribute": "dealClassification"
+              },
+              {
+                "@value": "LIBOR",
+                "@valueType": "String",
+                "@attribute": "interestPricingRules"
+              },
+              {
+                "@value": "UNUT",
+                "@valueType": "String",
+                "@attribute": "feePricingRules"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "agreementDate"
+              },
+              {
+                "@value": "In Progress",
+                "@valueType": "String",
+                "@attribute": "creditDocumentationStatus"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "targetFundingDate"
+              },
+              {
+                "@value": "USD",
+                "@valueType": "String",
+                "@attribute": "currency"
+              },
+              {
+                "@value": "John Smith",
+                "@valueType": "String",
+                "@attribute": "relationshipManagerName"
+              },
+              {
+                "@value": "ABC Corp",
+                "@valueType": "String",
+                "@attribute": "primaryBorrower"
+              }
+            ]
+          }
+        ],
+        "@objectType": "",
+        "@objectId": "",
+        "LiqBusinessObject": [
+          {
+            "@name": "borrowers",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "CUST100123",
+                    "@valueType": "String",
+                    "@attribute": "cifNumber"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "facilities",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "2021-11-01",
+                    "@valueType": "String",
+                    "@attribute": "agreementDate"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  },
+                  {
+                    "@value": "2021-11-02",
+                    "@valueType": "String",
+                    "@attribute": "effectiveDate"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "expiryDate"
+                  },
+                  {
+                    "@value": "IE21",
+                    "@valueType": "String",
+                    "@attribute": "facilityName"
+                  },
+                  {
+                    "@value": "RST",
+                    "@valueType": "String",
+                    "@attribute": "facilityType"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "finalMaturityDate"
+                  },
+                  {
+                    "@value": "ABC Corporation",
+                    "@valueType": "String",
+                    "@attribute": "borrowerLegalName"
+                  },
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "modifyInterestPricingOption"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": "",
+            "LiqBusinessObject": [
+              {
+                "@name": "outstandings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "PRIME",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "beneficiaries"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "borrowerName"
+                      },
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currency"
+                      },
+                      {
+                        "@value": "2021-11-02",
+                        "@valueType": "String",
+                        "@attribute": "effectiveDate"
+                      },
+                      {
+                        "@value": "2023-11-02",
+                        "@valueType": "String",
+                        "@attribute": "expiryDate"
+                      },
+                      {
+                        "@value": "SBLC",
+                        "@valueType": "String",
+                        "@attribute": "outstandingType"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "pricingOption"
+                      },
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "purpose"
+                      },
+                      {
+                        "@value": "3M",
+                        "@valueType": "String",
+                        "@attribute": "repricingFrequency"
+                      },
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "interestPricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBO,FIX",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "feePricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "riskTypes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "supportedCurrencies",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currencyLimit"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "purposes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "loanPurposeType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              }
+            ]
+          },
+          {
+            "@name": "pricingOptions",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "option"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "originationPrimaries",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "HB Americas",
+                    "@valueType": "String",
+                    "@attribute": "lenderName"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookingRequestId": "125",
+    "LiqBusinessObject": [
+      {
+        "@name": "deal",
+        "groups": [
+          {
+            "@name": "heading",
+            "items": [
+              {
+                "@value": "book212",
+                "@valueType": "String",
+                "@attribute": "dealTrackingNumber"
+              },
+              {
+                "@value": "Smith Foods Credit Agreement212",
+                "@valueType": "String",
+                "@attribute": "creditAgreementName"
+              },
+              {
+                "@value": "00005",
+                "@valueType": "String",
+                "@attribute": "branch"
+              },
+              {
+                "@value": "FRONL",
+                "@valueType": "String",
+                "@attribute": "department"
+              },
+              {
+                "@value": "CLDA",
+                "@valueType": "String",
+                "@attribute": "processingArea"
+              },
+              {
+                "@value": "ACQ",
+                "@valueType": "String",
+                "@attribute": "dealClassification"
+              },
+              {
+                "@value": "LIBOR",
+                "@valueType": "String",
+                "@attribute": "interestPricingRules"
+              },
+              {
+                "@value": "UNUT",
+                "@valueType": "String",
+                "@attribute": "feePricingRules"
+              },
+              {
+                "@value": "2021-11-09",
+                "@valueType": "String",
+                "@attribute": "agreementDate"
+              },
+              {
+                "@value": "In Progress",
+                "@valueType": "String",
+                "@attribute": "creditDocumentationStatus"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "targetFundingDate"
+              },
+              {
+                "@value": "USD",
+                "@valueType": "String",
+                "@attribute": "currency"
+              },
+              {
+                "@value": "John Smith",
+                "@valueType": "String",
+                "@attribute": "relationshipManagerName"
+              },
+              {
+                "@value": "ABC Corp",
+                "@valueType": "String",
+                "@attribute": "primaryBorrower"
+              }
+            ]
+          }
+        ],
+        "@objectType": "",
+        "@objectId": "",
+        "LiqBusinessObject": [
+          {
+            "@name": "borrowers",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "CUST111023",
+                    "@valueType": "String",
+                    "@attribute": "cifNumber"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "facilities",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "2021-11-09",
+                    "@valueType": "String",
+                    "@attribute": "agreementDate"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  },
+                  {
+                    "@value": "2021-11-10",
+                    "@valueType": "String",
+                    "@attribute": "effectiveDate"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "expiryDate"
+                  },
+                  {
+                    "@value": "Smith Foods Term212",
+                    "@valueType": "String",
+                    "@attribute": "facilityName"
+                  },
+                  {
+                    "@value": "RST",
+                    "@valueType": "String",
+                    "@attribute": "facilityType"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "finalMaturityDate"
+                  },
+                  {
+                    "@value": "ABC Corporation",
+                    "@valueType": "String",
+                    "@attribute": "borrowerLegalName"
+                  },
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "modifyInterestPricingOption"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": "",
+            "LiqBusinessObject": [
+              {
+                "@name": "outstandings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "PRIME",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "beneficiaries"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "borrowerName"
+                      },
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currency"
+                      },
+                      {
+                        "@value": "2021-11-10",
+                        "@valueType": "String",
+                        "@attribute": "effectiveDate"
+                      },
+                      {
+                        "@value": "2023-11-02",
+                        "@valueType": "String",
+                        "@attribute": "expiryDate"
+                      },
+                      {
+                        "@value": "SBLC",
+                        "@valueType": "String",
+                        "@attribute": "outstandingType"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "pricingOption"
+                      },
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "purpose"
+                      },
+                      {
+                        "@value": "3M",
+                        "@valueType": "String",
+                        "@attribute": "repricingFrequency"
+                      },
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "interestPricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBO,FIX",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "feePricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "riskTypes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "supportedCurrencies",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currencyLimit"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "purposes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "loanPurposeType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              }
+            ]
+          },
+          {
+            "@name": "pricingOptions",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "option"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "originationPrimaries",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "HB Americas",
+                    "@valueType": "String",
+                    "@attribute": "lenderName"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "bookingRequestId": "126",
+    "LiqBusinessObject": [
+      {
+        "@name": "deal",
+        "groups": [
+          {
+            "@name": "heading",
+            "items": [
+              {
+                "@value": "book2003",
+                "@valueType": "String",
+                "@attribute": "dealTrackingNumber"
+              },
+              {
+                "@value": "Smith Foods Credit Agreement456",
+                "@valueType": "String",
+                "@attribute": "creditAgreementName"
+              },
+              {
+                "@value": "12345",
+                "@valueType": "String",
+                "@attribute": "branch"
+              },
+              {
+                "@value": "FRONL",
+                "@valueType": "String",
+                "@attribute": "department"
+              },
+              {
+                "@value": "CLDA",
+                "@valueType": "String",
+                "@attribute": "processingArea"
+              },
+              {
+                "@value": "ACQ",
+                "@valueType": "String",
+                "@attribute": "dealClassification"
+              },
+              {
+                "@value": "LIBOR",
+                "@valueType": "String",
+                "@attribute": "interestPricingRules"
+              },
+              {
+                "@value": "UNUT",
+                "@valueType": "String",
+                "@attribute": "feePricingRules"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "agreementDate"
+              },
+              {
+                "@value": "In Progress",
+                "@valueType": "String",
+                "@attribute": "creditDocumentationStatus"
+              },
+              {
+                "@value": "2021-11-02",
+                "@valueType": "String",
+                "@attribute": "targetFundingDate"
+              },
+              {
+                "@value": "USD",
+                "@valueType": "String",
+                "@attribute": "currency"
+              },
+              {
+                "@value": "John Smith",
+                "@valueType": "String",
+                "@attribute": "relationshipManagerName"
+              },
+              {
+                "@value": "ABC Corp",
+                "@valueType": "String",
+                "@attribute": "primaryBorrower"
+              }
+            ]
+          }
+        ],
+        "@objectType": "",
+        "@objectId": "",
+        "LiqBusinessObject": [
+          {
+            "@name": "borrowers",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "CUST100123",
+                    "@valueType": "String",
+                    "@attribute": "cifNumber"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "facilities",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "2021-11-01",
+                    "@valueType": "String",
+                    "@attribute": "agreementDate"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  },
+                  {
+                    "@value": "2021-11-02",
+                    "@valueType": "String",
+                    "@attribute": "effectiveDate"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "expiryDate"
+                  },
+                  {
+                    "@value": "Smith Foods Term2003",
+                    "@valueType": "String",
+                    "@attribute": "facilityName"
+                  },
+                  {
+                    "@value": "RST",
+                    "@valueType": "String",
+                    "@attribute": "facilityType"
+                  },
+                  {
+                    "@value": "2023-11-02",
+                    "@valueType": "String",
+                    "@attribute": "finalMaturityDate"
+                  },
+                  {
+                    "@value": "ABC Corporation",
+                    "@valueType": "String",
+                    "@attribute": "borrowerLegalName"
+                  },
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "modifyInterestPricingOption"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": "",
+            "LiqBusinessObject": [
+              {
+                "@name": "outstandings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "PRIME",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "beneficiaries"
+                      },
+                      {
+                        "@value": "John Smith",
+                        "@valueType": "String",
+                        "@attribute": "borrowerName"
+                      },
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currency"
+                      },
+                      {
+                        "@value": "2021-11-02",
+                        "@valueType": "String",
+                        "@attribute": "effectiveDate"
+                      },
+                      {
+                        "@value": "2023-11-02",
+                        "@valueType": "String",
+                        "@attribute": "expiryDate"
+                      },
+                      {
+                        "@value": "SBLC",
+                        "@valueType": "String",
+                        "@attribute": "outstandingType"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "pricingOption"
+                      },
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "purpose"
+                      },
+                      {
+                        "@value": "3M",
+                        "@valueType": "String",
+                        "@attribute": "repricingFrequency"
+                      },
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "interestPricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBO,FIX",
+                        "@valueType": "String",
+                        "@attribute": "baseRate"
+                      },
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "feePricings",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LIBOR",
+                        "@valueType": "String",
+                        "@attribute": "option"
+                      },
+                      {
+                        "@value": "BANK",
+                        "@valueType": "String",
+                        "@attribute": "rateBasis"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "riskTypes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "LOANS",
+                        "@valueType": "String",
+                        "@attribute": "riskType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "purposes",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "ACQ",
+                        "@valueType": "String",
+                        "@attribute": "loanPurposeType"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              },
+              {
+                "@name": "supportedCurrencies",
+                "groups": [
+                  {
+                    "@name": "heading",
+                    "items": [
+                      {
+                        "@value": "USD",
+                        "@valueType": "String",
+                        "@attribute": "currencyLimit"
+                      }
+                    ]
+                  }
+                ],
+                "@objectType": "",
+                "@objectId": ""
+              }
+            ]
+          },
+          {
+            "@name": "pricingOptions",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "LIBOR",
+                    "@valueType": "String",
+                    "@attribute": "option"
+                  },
+                  {
+                    "@value": "USD",
+                    "@valueType": "String",
+                    "@attribute": "currency"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          },
+          {
+            "@name": "originationPrimaries",
+            "groups": [
+              {
+                "@name": "heading",
+                "items": [
+                  {
+                    "@value": "HB Americas",
+                    "@valueType": "String",
+                    "@attribute": "lenderName"
+                  }
+                ]
+              }
+            ],
+            "@objectType": "",
+            "@objectId": ""
+          }
+        ]
+      }
+    ]
+  }
+]
